@@ -1,0 +1,7 @@
+.slide{
+    padding: 5px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}

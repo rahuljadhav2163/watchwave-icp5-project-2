@@ -31,3 +31,8 @@ function load()
     else 
     {alert("Give yourself peaceful time by watching our tollwood new movies?");}
 }
+
+function watchlist()
+{
+    alert('Movie has been Added to Watchlist');
+}
