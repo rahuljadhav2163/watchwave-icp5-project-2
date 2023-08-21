@@ -50,6 +50,10 @@ function lightmode()
     let textelement1=document.getElementsById('text1');
     textelement1.classList.remove('text-white-50');
     textelement1.classList.add('text-black');
+
+    let infoelementsita=document.getElementsById('infomode');
+    infoelementsita.classList.remove('bg');
+    infoelementsita.classList.add('bg-secondary');
 }
 
 /*function lightmodesita()
