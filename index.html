@@ -13,8 +13,9 @@
 </head>
 
 <body class="body-dark" id="body">
+    <button onclick="light()" class="btn btn-info mb-3"><i class="bi bi-moon-fill"></i></button>
+    <button onclick="dark()" class="btn btn-info mb-3"><i class="bi bi-brightness-low-fill"></i> </button>
 
-    <button onclick="theme()" class="btn btn-info mb-3">theme</button>
 
     <div class="container-fluid">
 
@@ -975,7 +976,7 @@
 
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h2 class="text-center text-warning fs-2">Frequently Asked Questions</h2>
+                <h2 class="text-center text-warning fs-1 fw-bolder mb-5">Frequently Asked Questions</h2>
                 <div class="accordion" id="faqAccordion">
 
                 </div>
@@ -989,7 +990,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        1. Q: What is WatchWave?
+                     <span class="textlight" > 1. Q: What is WatchWave?</span>
                     </button>
                 </h5>
             </div>
@@ -1007,7 +1008,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        2. Q: What is the best thing watchWave Platform contain?
+                        <span class="textlight" > 2. Q: What is the best thing watchWave Platform contain?</span>
 
                     </button>
                 </h5>
@@ -1026,7 +1027,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        3. Q: How can I watch?
+                        <span class="textlight" >   3. Q: How can I watch?</span>
                     </button>
                 </h5>
             </div>
@@ -1043,7 +1044,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        4. Q: Where can I Watch?
+                        <span class="textlight" >  4. Q: Where can I Watch?</span>
                     </button>
                 </h5>
             </div>
@@ -1065,7 +1066,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        5. Q: How do I?
+                        <span class="textlight" >  5. Q: How do I?</span>
                     </button>
                 </h5>
             </div>
@@ -1084,7 +1085,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        6. Q: What can I watch?
+                        <span class="textlight" >  6. Q: What can I watch?</span>
                     </button>
                 </h5>
             </div>
@@ -1102,7 +1103,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link text-decoration-none text-light fs-2 fw-bolder" data-toggle="collapse"
                         data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                        7. Q: If WatchWave good for kids?
+                        <span class="textlight" >  7. Q: Is WatchWave good for kids?</span>
                     </button>
                 </h5>
             </div>
@@ -1146,20 +1147,20 @@
     function create() {
         alert('Successfully Created Account')
     }
-    function theme() {
-        const color = document.getElementsByClassName('body-dark')
-        if (color === 'body-dark') {
-            light.classList.remove('body-dark');
-            light.classList.add('body-light');
-
-
-        }
-        else {
-            light.classList.remove('body-light');
-            light.classList.add('body-dark');
-
-        }
-    }
+  
+function light()
+{
+    const light=document.getElementById('body')
+    light.classList.remove('body-light');
+    light.classList.add('body-dark');
+}
+function dark()
+{
+    const light=document.getElementById('body')
+    light.classList.remove('body-dark');
+    light.classList.add('body-light');
+}
+    
 
 </script>
 
