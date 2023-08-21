@@ -10,11 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+        <script src="./../javascript.js"></script>
     <link rel="stylesheet" href="../../css/tollywood.css">
 </head>
 
-<body class="bg-black">
-    <h1 class="text-white text-center">Sita Raman</h1>
+<body class="bg-black" id="bodymode">
+    <img src="../../img/tollywood/darkmode.png" class="modebutton" onclick="darkmode()"> <img src="../../img/tollywood/lightmode.png" class="modebutton" onclick="lightmode()">
+    <h1 class="text-white text-center" id="textmode">Sita Raman</h1>
     
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -56,41 +58,41 @@
                 <div class="row">
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <h class="text-light-emphasis">Genres</h>
-                        <p class="text-white-50">Romantic, Action and adventure movie</p>
+                        <p class="text-white-50" id="text1">Romantic, Action and adventure movie</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <h class="text-light-emphasis">This movie is...</h>
-                        <p class="text-white-50">Loverstory and patriotic movie</p>
+                        <p class="text-white-50" id="text2">Loverstory and patriotic movie</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <h class="text-light-emphasis">Audio</h>
-                        <p class="text-white-50">English, Hindi</p>
+                        <p class="text-white-50" id="text3">English, Hindi</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <h class="text-light-emphasis">Subtitles</h>
-                        <p class="text-white-50">English, Hindi</p>
+                        <p class="text-white-50" id="text4">English, Hindi</p>
                     </div>
                 </div>
                 <br />
                 <div class="row">
                     <h class="text-dark-emphasis fw-bolder">Cast</h>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <p class="text-white-50">Dulquer Salmaan</p>
+                        <p class="text-white-50" id="text5">Dulquer Salmaan</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <p class="text-white-50">Mrunal Thakur</p>
+                        <p class="text-white-50" id="text6">Mrunal Thakur</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <p class="text-white-50">Rashmika Mandanna</p>
+                        <p class="text-white-50" id="text7">Rashmika Mandanna</p>
                     </div>
 
                     <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <p class="text-white-50">Bhumika Chavala</p>
+                        <p class="text-white-50" id="text8">Bhumika Chavala</p>
                     </div>
                 </div>
             </div>
