@@ -33,7 +33,7 @@ height: 100vh;
 width: 100%;
 }
 div.scroll-container {
-background-color:  #060d17;
+background-color: none;
 overflow: auto;
 white-space: nowrap;
 padding: 10px;
