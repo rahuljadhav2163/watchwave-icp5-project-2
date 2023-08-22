@@ -4,17 +4,16 @@
 
 ## Your streaming guide for movies, web series,TV shows & sports
 **Homepage**
-<img src="./outputs/home-page.png" /><br />
-**Bollywood page**
-<img src="./outputs/categories.png" />
-**Tollywood page**
-<img src="./outputs/loginpage.png">
-**Webseries page**
-<img src="./outputs/cards.jpeg">
+<img src="./img/home-scrin.png" /><br />
+**Cards**
+<img src="./img/card-scrin.png" />
+**Movie page**
+<img src="./img/bolly-scrin.png">
+
 
 ## Use Of Project
 
-**WatchWave**WatchWave is your ultimate destination for online movie watching. With a vast collection of films spanning various genres, it offers a convenient and enjoyable cinematic experience right at your fingertips. Experience seamless streaming and high-quality visuals, all while saving time and money by avoiding traditional movie theaters. Explore new releases, timeless classics, and hidden gems, and tailor your movie nights according to your preferences. Say goodbye to hassle and hello to the future of movie entertainment with WatchWave.
+**WatchWave** is your ultimate destination for online movie watching. With a vast collection of films spanning various genres, it offers a convenient and enjoyable cinematic experience right at your fingertips. Experience seamless streaming and high-quality visuals, all while saving time and money by avoiding traditional movie theaters. Explore new releases, timeless classics, and hidden gems, and tailor your movie nights according to your preferences. Say goodbye to hassle and hello to the future of movie entertainment with WatchWave.
 
 ## Description 📝
 
